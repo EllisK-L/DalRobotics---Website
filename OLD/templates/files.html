@@ -1,0 +1,68 @@
+{% extends "layout.html" %}
+    {% block content %}
+    <title>File Server</title>
+
+    <style>
+    
+        .file_box{
+            display: inline-block;
+            border: 2px solid #eaeaea;
+            background-color: white;
+            transition: 0.2s;
+    
+        }
+    
+        .file_box:hover{
+            display: inline-block;
+            border: 2px solid black;
+            background-color: #e8f0fe;
+    
+        }
+    
+        .file_box h1{
+            color:black;
+            text-align: center;
+    
+        }
+    
+        .file_box h1{
+            padding-left: 1rem;
+        }
+    
+        .grid-container{
+            padding-right: 1rem;
+            padding-left: 1rem;
+            display: grid;
+            grid-auto-columns: auto;
+            grid-template-columns:repeat(auto-fit, 250px);
+            grid-gap: .5rem;
+        }
+    
+        </style>
+        {% if dir == "/" %}
+        <h2 style="margin-left:1rem ">{{dir}}</h2>
+        {%else%}
+        <h2 style="margin-left: 1rem;">{{dir.replace("/","",1)}}</h2>
+        {% endif %}
+    
+      
+    
+        <div class = grid-container>
+            {% for f in files %}
+                {% if f.folder == "True" %}
+            <a class=file_box href="{{  url_for('files',directoryRaw= (dir + f.file).replace('/','-')) }}" style="text-decoration:none"> <h1><i class="fas fa-folder"></i> {{ f.file }}</h1>
+                {% elif f.extension.upper() == "PNG" %}
+            <a class=file_box href="static/Files{{ dir }}{{ f.file }}" style="text-decoration:none" download > <h1><i class="fas fa-image"></i> {{ f.file }}</h1>
+                {% elif f.extension.upper() == "TXT" %}
+            <a class=file_box href="static/Files{{ dir }}{{ f.file }}" style="text-decoration:none" download > <h1><i class="fas fa-file-alt"></i> {{ f.file }}</h1>
+                {% else %}
+            <a class=file_box href="static/Files{{ dir }}{{ f.file }}" style="text-decoration:none" download > <h1><i class="fas fa-file"></i> {{ f.file }}</h1>
+                {% endif %}
+            </a>
+    
+            {% endfor %}
+    
+        </div>
+    </div>
+
+    {% endblock content %}

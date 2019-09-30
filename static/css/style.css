@@ -1,0 +1,26 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #0c4a7b;
+    margin: 0;
+    padding: 0;
+}
+.nav_bar{
+    padding-right:15%;
+    padding-left: 15%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.nav_bar span{
+    font-size: 2rem;
+    color:orange;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    flex-wrap: nowrap;
+}
+.nav_bar span:hover{
+    color: white;
+}

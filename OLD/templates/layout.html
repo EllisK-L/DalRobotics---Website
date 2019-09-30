@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+            <style>
+        
+                    body{
+                        background-color: #f2f2f2;
+                        margin: 0;
+                        padding: 0;
+                    }
+            
+                    .nav{
+            
+                        background-color: #1c1c1c;
+                        display: grid;
+                        margin: 0;
+                        padding: 0;
+
+                    }
+                    .nav h1{
+                        color: white;
+                        margin-left: 4rem;
+                        margin-top: 0;
+                    }
+                    .inNav{
+                        color: white;
+                    }
+                    
+                    </style>
+
+    </head>
+    <body>
+        
+
+        <div class="nav">
+            <h1 style="grid-column: 1/2"class="inNav">File Server</h1>
+            {% block nav %}
+            {% endblock %}
+
+        </div>
+
+
+        <div class="">
+            {% block content %}
+            {% endblock %}
+
+        </div>
+    </body>
+</html>
