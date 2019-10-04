@@ -1,0 +1,13 @@
+/* category checklist media popup */
+.compat-attachment-fields label span {
+	color: inherit;
+}
+.compat-attachment-fields .children {
+	margin: 5px 0 0 20px;
+}
+.compat-attachment-fields .field input[type="checkbox"] {
+	margin-top: 0;
+}
+.compat-attachment-fields .term-list {
+	margin-top: 5px;
+}

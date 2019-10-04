@@ -1,0 +1,89 @@
+/*
+Theme Name: Dal ROV
+Author: Ellis:
+Version: 1.0:
+*/
+:root{
+    --bg-colour: rgb(31, 31, 31);
+    --hightlight-colour: rgb(44, 44, 44)
+}
+.main_body{
+    padding: 0%;
+    margin: 0%;
+    background-color: var(--bg-colour);
+    color:white;
+}
+html, main img{
+    width: 100%;
+}
+hr{
+    border-color: white !important;
+}
+.header{
+    background-color: #0c4a7b;
+    margin: 0;
+    padding: 0;
+
+}
+.logo img{
+    width: 20%;
+    margin-right: 15px;
+    margin-left: 15%;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+.logo h1{
+    display: inline;
+    margin-top: 2rem;
+    color: #ffc70e;
+}
+.nav_bar{
+    background-color: #0b60a1;
+    padding-right:15%;
+    padding-left: 15%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.nav_bar span{
+    transition: .2s;
+    font-size: 2rem;
+    color:orange;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    flex-wrap: nowrap;
+}
+.nav_bar span:hover{
+    transition: .2s;
+    color: white;
+}
+.carousel-item{
+    height: 35%;
+    max-height: 500px;
+}
+.page_content{
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: var(--hightlight-colour);
+}
+.main_container{
+    display: flex;
+    align-items: flex-start;;
+}
+.most_recent_post{
+    min-width: 25%;
+    border-radius: .5rem;
+    padding: 1rem;
+    margin: 2rem;
+    background-color: var(--hightlight-colour);
+}
+.most_recent_post_h1{
+    text-align: center;
+}
+@media (max-width: 685px){
+    .main_container{
+        flex-wrap: wrap;
+    }
+}

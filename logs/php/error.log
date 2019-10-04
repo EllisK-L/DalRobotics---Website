@@ -1,0 +1,72 @@
+[30-Sep-2019 15:35:47 UTC] PHP Parse error:  syntax error, unexpected '%', expecting identifier (T_STRING) in phar:///usr/local/bin/wp/vendor/rmccue/requests/library/Requests.php on line 47
+[30-Sep-2019 15:35:48 UTC] PHP Parse error:  syntax error, unexpected '%', expecting identifier (T_STRING) in phar:///usr/local/bin/wp/vendor/rmccue/requests/library/Requests.php on line 47
+[30-Sep-2019 19:30:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /app/public/wp-content/themes/DalROV/functions.php:36
+Stack trace:
+#0 /app/public/wp-settings.php(499): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/DalROV/functions.php on line 36
+[30-Sep-2019 19:32:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /app/public/wp-content/themes/DalROV/functions.php:36
+Stack trace:
+#0 /app/public/wp-settings.php(499): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/DalROV/functions.php on line 36
+[30-Sep-2019 19:36:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /app/public/wp-content/themes/DalROV/functions.php:41
+Stack trace:
+#0 /app/public/wp-settings.php(499): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/DalROV/functions.php on line 41
+[30-Sep-2019 19:36:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /app/public/wp-content/themes/DalROV/functions.php:41
+Stack trace:
+#0 /app/public/wp-settings.php(499): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#4 /app/public/index.php(17): require('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/DalROV/functions.php on line 41
+[30-Sep-2019 19:36:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /app/public/wp-content/themes/DalROV/functions.php:41
+Stack trace:
+#0 /app/public/wp-settings.php(499): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-blog-header.php(13): require_once('/app/public/wp-...')
+#4 /app/public/index.php(17): require('/app/public/wp-...')
+#5 {main}
+  thrown in /app/public/wp-content/themes/DalROV/functions.php on line 41
+[30-Sep-2019 19:37:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /app/public/wp-content/themes/DalROV/functions.php:41
+Stack trace:
+#0 /app/public/wp-settings.php(499): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/DalROV/functions.php on line 41
+[30-Sep-2019 19:39:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function add_section() on null in /app/public/wp-content/themes/DalROV/functions.php:41
+Stack trace:
+#0 /app/public/wp-settings.php(499): include()
+#1 /app/public/wp-config.php(76): require_once('/app/public/wp-...')
+#2 /app/public/wp-load.php(37): require_once('/app/public/wp-...')
+#3 /app/public/wp-admin/admin-ajax.php(22): require_once('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/themes/DalROV/functions.php on line 41
+[30-Sep-2019 19:43:56 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sw_editable_content' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[30-Sep-2019 19:44:57 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sw_editable_content' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[30-Sep-2019 19:46:58 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sw_editable_content' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[30-Sep-2019 19:48:59 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sw_editable_content' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[30-Sep-2019 19:51:00 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sw_editable_content' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[30-Sep-2019 19:53:01 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sw_editable_content' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2019 17:25:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sw_editable_content' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2019 17:25:35 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sw_editable_content' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2019 17:25:37 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sw_editable_content' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2019 17:25:56 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sw_editable_content' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2019 17:27:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sw_editable_content' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[04-Oct-2019 17:27:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sw_editable_content' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
