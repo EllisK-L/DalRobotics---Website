@@ -70,3 +70,17 @@ Stack trace:
 [04-Oct-2019 17:25:56 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sw_editable_content' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
 [04-Oct-2019 17:27:18 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sw_editable_content' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
 [04-Oct-2019 17:27:19 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'sw_editable_content' not found or invalid function name in /app/public/wp-includes/class-wp-hook.php on line 286
+[09-Oct-2019 12:44:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function head() in /app/public/wp-content/themes/DalROV/about.php:13
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/DalROV/about.php on line 13
+[09-Oct-2019 12:44:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function head() in /app/public/wp-content/themes/DalROV/about.php:13
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/DalROV/about.php on line 13

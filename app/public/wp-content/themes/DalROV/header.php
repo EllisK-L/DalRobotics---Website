@@ -22,6 +22,7 @@
         <div class="nav_bar">
             <a href="http://dalrov.local/" style="text-decoration: none"><span>Home</span></a>
             <a href="http://dalrov.local/about/"style="text-decoration: none"><span>About</span></a>
+            <a href="http://dalrov.local/team/"style="text-decoration: none"><span>Team</span></a>
             <a href=""style="text-decoration: none"><span>Contact</span></a>
             <a href=""style="text-decoration: none"><span>Gallery</span></a>
         </div>

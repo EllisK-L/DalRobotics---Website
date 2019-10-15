@@ -82,6 +82,15 @@ hr{
 .most_recent_post_h1{
     text-align: center;
 }
+/* .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: var(--hightlight-colour);
+
+}
+.dropbtn:hover .dropdown-content{
+    display: block;
+} */
 @media (max-width: 685px){
     .main_container{
         flex-wrap: wrap;
