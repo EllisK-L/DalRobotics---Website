@@ -5,7 +5,8 @@ Version: 1.0:
 */
 :root{
     --bg-colour: rgb(31, 31, 31);
-    --hightlight-colour: rgb(44, 44, 44)
+    --hightlight-colour: rgb(44, 44, 44);
+    --outline-radius: .5rem;
 }
 .main_body{
     padding: 0%;
@@ -81,6 +82,17 @@ hr{
 }
 .most_recent_post_h1{
     text-align: center;
+}
+.teamPhotos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.teamPhotos img{
+    background-color: var(--hightlight-colour);
+    padding: 1rem;
+    margin: .5rem;
+    border-radius: var(--outline-radius);
+    width: 40%;
 }
 /* .dropdown-content{
     display: none;

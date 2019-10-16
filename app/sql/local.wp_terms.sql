@@ -5,4 +5,6 @@ INSERT INTO `wp_terms` VALUES
 (1,"Uncategorized","uncategorized",0),
 (2,"Slide 1","slide-1",0),
 (3,"Slide 2","slide-2",0),
-(4,"Slide 3","slide-3",0);
+(4,"Slide 3","slide-3",0),
+(5,"Team Memeber","team-memeber",0),
+(6,"Team Member","team-member",0);
