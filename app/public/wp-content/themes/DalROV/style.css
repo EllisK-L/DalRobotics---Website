@@ -89,10 +89,10 @@ hr{
 }
 .teamPhotos img{
     background-color: var(--hightlight-colour);
-    padding: 1rem;
-    margin: .5rem;
+    padding: 2rem;
+    margin: 1rem;
     border-radius: var(--outline-radius);
-    width: 40%;
+    width: 30%;
 }
 /* .dropdown-content{
     display: none;

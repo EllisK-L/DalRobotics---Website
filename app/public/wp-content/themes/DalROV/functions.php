@@ -27,7 +27,9 @@ function get_images($cat,$size="full",$maxposts=300){
       
     $image = wp_get_attachment_image_src(get_the_ID(),$size);
     array_push($image,get_permalink(get_the_ID()));
+    array_push($image,get_post(get_the_ID()));
     array_push($images,$image);
+
 
     // echo "<img src='" . $image[0] . "'>";
       

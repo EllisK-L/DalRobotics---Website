@@ -84,3 +84,12 @@ Stack trace:
 #2 /app/public/index.php(17): require('/app/public/wp-...')
 #3 {main}
   thrown in /app/public/wp-content/themes/DalROV/about.php on line 13
+[16-Oct-2019 18:57:53 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/DalROV/team.php on line 23
+[16-Oct-2019 18:58:21 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/DalROV/team.php on line 23
+[16-Oct-2019 19:03:51 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /app/public/wp-content/themes/DalROV/team.php:21
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/DalROV/team.php on line 21

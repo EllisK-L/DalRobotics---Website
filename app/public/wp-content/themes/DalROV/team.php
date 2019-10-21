@@ -19,8 +19,9 @@
         foreach($images as $image){
 
             echo "<img class= 'teamPhoto'  src='" . $image[0] . "' alt='alt Text'>";
-
-        }
+            echo "<h3>". $image[5]->post_content ."</h3>";
+            echo "<h3>YES</h3>";
+        };
         ?>
         </div>
     </main>
