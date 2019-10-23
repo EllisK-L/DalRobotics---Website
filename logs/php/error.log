@@ -93,3 +93,11 @@ Stack trace:
 #2 /app/public/index.php(17): require('/app/public/wp-...')
 #3 {main}
   thrown in /app/public/wp-content/themes/DalROV/team.php on line 21
+[21-Oct-2019 12:52:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /app/public/wp-content/themes/DalROV/team.php on line 22
+[21-Oct-2019 13:41:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_post() in /app/public/wp-content/themes/DalROV/team.php:22
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(78): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/DalROV/team.php on line 22
