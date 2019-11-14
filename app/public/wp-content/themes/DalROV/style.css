@@ -55,7 +55,7 @@ hr{
     padding-left: 1rem;
     flex-wrap: nowrap;
 }
-.nav_bar span:hover{
+.nav_bar a:hover{
     transition: .2s;
     color: white;
 }
